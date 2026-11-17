@@ -1,0 +1,111 @@
+body {
+    background: #8DA6FF;
+}
+
+/* Folgend werden die Schriften definiert.*/
+
+#haupttitel {
+    font-family: "Avenir Black";
+    color: #f39c12;
+    text-align: center;
+
+}
+
+
+h2 {
+    font-family: "Avenir Black";
+}
+
+p {
+    font-family: "Avenir";
+}
+
+/* Schriften done*/
+
+/* Folgend wird das Bild auf der Hauptseite definiert.*/
+.index-picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 30%; /* Verhindert Überlaufen auf kleinen Bildschirmen */
+    height: 30%;
+}
+
+/* Bild Hauptseite done*/
+
+
+
+/* Folgend werden die Boxen definiert.*/
+
+.box {
+    padding: 2rem;
+    max-width: 400px;
+    text-align: center;
+    background: #ffffff;
+    border-radius: 2rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    }
+
+.allboxes {
+    display: flex; /* Macht die Kinder nebeneinander */
+    gap: 2rem; /* Erzeugt einen gleichmäßigen Abstand zwischen den Boxen */
+
+}
+
+/*Boxen done*/
+
+/*Folgend wird die Navigation definiert.*/
+
+    /* Grundlegendes Reset für die Liste */
+    .hauptnavigation ul.nav-links {
+        align-items:
+        list-style: none;         /* Entfernt Aufzählungspunkte */
+        margin: 0;                /* Setzt Standard-Abstände zurück */
+        padding: 0;               /* Setzt Standard-Padding zurück */
+        display: flex;            /* Ordnet Listenelemente horizontal an */
+        gap: 1rem;                /* Erzeugt Abstand zwischen den Links */
+        align-items: center;      /* Zentriert die Elemente vertikal */
+        background-color: cadetblue;   /* Beispiel-Hintergrundfarbe */
+        padding: 1rem 2rem;       /*Innenabstand der Navbar*/
+        justify-content: flex-end;
+    }
+
+    /* Styling der Links (Anker-Tags) */
+    .hauptnavigation a {
+        color: #ffffff;           /* Schriftfarbe */
+        padding: 0.8rem;
+        text-decoration: none;    /* Entfernt Standard-Unterstreichung */
+        font-family: sans-serif;
+        font-weight: 500;
+        transition: color 0.25s ease; /* Sanfter Farbwechsel */
+    }
+
+    .nav-links {
+        list-style: none;
+    }
+
+    /* Hover- und Fokus-Effekte für Interaktivität */
+    .hauptnavigation a:hover,
+    .hauptnavigation a:focus-visible {
+        background-color: #2c3e50;
+        padding: 0.8rem;
+        border-radius: 0.3rem;
+        color: #00bcd4;           /* Wechselt die Farbe beim Hover/Fokus */
+    }
+
+
+
+
+/* Kontaktformular Seite */
+.kontaktformular {
+
+}
+
+absenden {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 999px;
+    background: #007acc;
+    color: #ffffff;
+}
